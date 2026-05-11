@@ -18,16 +18,22 @@ export default function Experience() {
             </div>
             <div className="timeline-role">Full Stack Engineer</div>
             <div className="timeline-company">dakikQ — SaaS Platform</div>
-            <p className="timeline-desc">
-              SaaS platformu için Docker multi-stage build ve standalone mimarisi kurgulayarak build sürelerini ve imaj boyutlarını optimize ettim. Tesseract OCR entegrasyonu ile fatura görsellerinden otomatik stok verisi çıkaran AI katmanını inşa ettim. Cloudflare Turnstile ve Google Auth ile bot korumalı, güvenli bir kimlik doğrulama sistemi uyguladım.
-            </p>
+            <div className="timeline-desc">
+              <p>SaaS platformunun modernizasyonu ve ölçeklenebilirliği üzerine odaklandım:</p>
+              <ul>
+                <li>Docker multi-stage build ve standalone mimarisi kurgulayarak build sürelerini %30 optimize ettim.</li>
+                <li>Tesseract OCR entegrasyonu ile fatura görsellerinden otomatik stok verisi ayıklayan AI katmanını sıfırdan inşa ettim.</li>
+                <li>Cloudflare Turnstile ve Google Auth ile bot korumalı, kurumsal düzeyde bir kimlik doğrulama sistemi uyguladım.</li>
+                <li>Redis entegrasyonu ile sık erişilen verilerde gecikme sürelerini minimize ettim.</li>
+              </ul>
+            </div>
             <div className="timeline-pills">
               <span className="timeline-pill">Docker</span>
               <span className="timeline-pill">Tesseract OCR</span>
               <span className="timeline-pill">Cloudflare</span>
-              <span className="timeline-pill">Google Auth</span>
               <span className="timeline-pill">Next.js</span>
               <span className="timeline-pill">Redis</span>
+              <span className="timeline-pill">Zod</span>
             </div>
           </div>
 
@@ -40,15 +46,20 @@ export default function Experience() {
             </div>
             <div className="timeline-role">Independent Developer</div>
             <div className="timeline-company">Freelance — Bağımsız</div>
-            <p className="timeline-desc">
-              10+ kurumsal müşteriye .NET, Redux ve modern web teknolojileriyle uçtan uca dijital dönüşüm çözümleri sundum. Farklı sektörlerdeki müşteriler için özelleştirilmiş web uygulamaları, API entegrasyonları ve performans optimizasyonları gerçekleştirdim.
-            </p>
+            <div className="timeline-desc">
+              <p>10'dan fazla kurumsal müşteriye dijital dönüşüm süreçlerinde teknik liderlik sağladım:</p>
+              <ul>
+                <li>.NET ve Redux kullanarak karmaşık state yönetimi gerektiren yüksek performanslı web uygulamaları geliştirdim.</li>
+                <li>Müşterilerin manuel iş süreçlerini otomatize eden özel API entegrasyonları ve veritabanı çözümleri tasarladım.</li>
+                <li>Modern UI/UX prensiplerini uygulayarak kullanıcı etkileşim oranlarını artıran arayüzler inşa ettim.</li>
+              </ul>
+            </div>
             <div className="timeline-pills">
               <span className="timeline-pill">.NET</span>
               <span className="timeline-pill">Redux</span>
               <span className="timeline-pill">React</span>
               <span className="timeline-pill">TypeScript</span>
-              <span className="timeline-pill">10+ Müşteri</span>
+              <span className="timeline-pill">Clean Architecture</span>
             </div>
           </div>
 
@@ -60,13 +71,17 @@ export default function Experience() {
             </div>
             <div className="timeline-role">Organizasyon Danışmanı</div>
             <div className="timeline-company">IAU CodeVerse Club</div>
-            <p className="timeline-desc">
-              Teknoloji topluluğu için sosyal medya ve etkinlik stratejilerini yönettim, teknik ekipler arası koordinasyonu sağladım. Yazılım öğrencilerine mentorluk yaparak kariyer gelişimlerine katkı sağladım.
-            </p>
+            <div className="timeline-desc">
+              <p>Yazılım topluluğunun teknik ve sosyal gelişimini yönettim:</p>
+              <ul>
+                <li>Teknik ekipler arası koordinasyonu sağlayarak 5+ büyük ölçekli etkinliği başarıyla tamamladım.</li>
+                <li>Genç yazılımcılara kariyer ve teknik gelişim konularında mentorluk verdim.</li>
+              </ul>
+            </div>
             <div className="timeline-pills">
-              <span className="timeline-pill">Liderlik</span>
-              <span className="timeline-pill">Etkinlik Yönetimi</span>
-              <span className="timeline-pill">Mentorluk</span>
+              <span className="timeline-pill">Leadership</span>
+              <span className="timeline-pill">Mentoring</span>
+              <span className="timeline-pill">Strategy</span>
             </div>
           </div>
 
@@ -78,14 +93,18 @@ export default function Experience() {
             </div>
             <div className="timeline-role">Software Developer Intern</div>
             <div className="timeline-company">Okatan Sağlık Arge A.Ş.</div>
-            <p className="timeline-desc">
-              Python ve MySQL kullanarak büyük yerleşim yerleri için karmaşık veri modellerine sahip yönetim sistemleri geliştirdim. Prisma ilişkisel yapısını kullanarak ölçeklenebilir veritabanı şemaları tasarladım.
-            </p>
+            <div className="timeline-desc">
+              <p>Sağlık teknolojileri üzerine veri yoğunluklu sistemler geliştirdim:</p>
+              <ul>
+                <li>Python ve MySQL kullanarak karmaşık ilişkisel veri modelleri ve Prisma şemaları tasarladım.</li>
+                <li>Veritabanı sorgu optimizasyonları yaparak raporlama süreçlerini hızlandırdım.</li>
+              </ul>
+            </div>
             <div className="timeline-pills">
               <span className="timeline-pill">Python</span>
               <span className="timeline-pill">MySQL</span>
               <span className="timeline-pill">Prisma</span>
-              <span className="timeline-pill">Veri Modelleme</span>
+              <span className="timeline-pill">Data Modeling</span>
             </div>
           </div>
 
@@ -97,14 +116,18 @@ export default function Experience() {
             </div>
             <div className="timeline-role">Software Developer Intern</div>
             <div className="timeline-company">INVENTRA</div>
-            <p className="timeline-desc">
-              React Native ile mobil uygulama geliştirme süreçlerini yönettim. Legacy WordPress yapılarını modern, performanslı HTML/CSS/JS koduna dönüştürerek web uygulamalarının hız ve kullanıcı deneyimini önemli ölçüde iyileştirdim.
-            </p>
+            <div className="timeline-desc">
+              <p>Web ve Mobil projelerde modernizasyon süreçlerini yönettim:</p>
+              <ul>
+                <li>React Native ile çapraz platform mobil uygulama geliştirme süreçlerinde aktif rol aldım.</li>
+                <li>Legacy WordPress altyapılarını modern Next.js mimarisine taşıyarak sayfa yüklenme hızlarını %50 artırdım.</li>
+              </ul>
+            </div>
             <div className="timeline-pills">
               <span className="timeline-pill">React Native</span>
-              <span className="timeline-pill">WordPress Migration</span>
-              <span className="timeline-pill">HTML/CSS/JS</span>
-              <span className="timeline-pill">Mobil</span>
+              <span className="timeline-pill">Migration</span>
+              <span className="timeline-pill">Performance</span>
+              <span className="timeline-pill">Next.js</span>
             </div>
           </div>
 

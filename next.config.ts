@@ -1,8 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'standalone',
-  // React 19 support and other optimizations
+  output: 'export',
+  images: {
+    unoptimized: true, // Static export requires this for next/image
+  },
   experimental: {
     // any experimental features if needed
   },
