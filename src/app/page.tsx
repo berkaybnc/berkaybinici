@@ -1,0 +1,25 @@
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import TechMatrix from "@/components/TechMatrix";
+import Experience from "@/components/Experience";
+import Certifications from "@/components/Certifications";
+import Education from "@/components/Education";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <TechMatrix />
+      <Experience />
+      <Certifications />
+      <Education />
+      <Contact />
+      <Footer />
+    </>
+  );
+}
