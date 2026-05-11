@@ -47,7 +47,7 @@ export default function Experience() {
             <div className="timeline-role">Independent Developer</div>
             <div className="timeline-company">Freelance — Bağımsız</div>
             <div className="timeline-desc">
-              <p>10'dan fazla kurumsal müşteriye dijital dönüşüm süreçlerinde teknik liderlik sağladım:</p>
+              <p>10&apos;dan fazla kurumsal müşteriye dijital dönüşüm süreçlerinde teknik liderlik sağladım:</p>
               <ul>
                 <li>.NET ve Redux kullanarak karmaşık state yönetimi gerektiren yüksek performanslı web uygulamaları geliştirdim.</li>
                 <li>Müşterilerin manuel iş süreçlerini otomatize eden özel API entegrasyonları ve veritabanı çözümleri tasarladım.</li>
